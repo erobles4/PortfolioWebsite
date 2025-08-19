@@ -26,5 +26,70 @@
                 </div>
             </div>
         </div>
+
+        <!-- -------about---------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/user.JPG">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean suscipit leo risus, quis sodales 
+                            arcu sodales elementum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque
+                             habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras et nunc 
+                             auctor, bibendum lorem nec, lobortis mi. Cras vitae lacinia lorem. Nulla tristique suscipit laoreet.
+                                Praesent in magna eget metus gravida semper a nec urna. Fusce mollis nibh et metus congue, 
+                              at efficitur neque tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
+                              lobortis congue accumsan. Praesent accumsan, eros eu gravida pulvinar, ex sem interdum nulla, 
+                              et vulputate massa augue et orci. Fusce quis ligula sed lorem tempus ullamcorper.</p>
+
+                              <div class="tab-title">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                              </div>
+                              <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Desinging Web/App interfaces</li>
+                                    <li><span>Web Developent</span><br>Web App interfaces</li>
+                                    <li><span>App Developent</span><br>Building Android/ios apps</li>
+                                </ul>
+                              </div>
+                               <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Work Time spent</span><br>Lorem ipsum dolor sit amet</li>
+                                    <li><span>Work Time spent</span><br>Lorem ipsum dolor sit amet</li>
+                                    <li><span>Work Time spent</span><br>Lorem ipsum dolor sit amet</li>
+                                </ul>
+                              </div>
+                               <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>School grad Year</span><br>Lorem ipsum dolor sit amet</li>
+                                </ul>
+                              </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+
     </body>
 </html>
