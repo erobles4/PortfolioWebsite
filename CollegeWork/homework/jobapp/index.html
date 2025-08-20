@@ -1,0 +1,112 @@
+<html>
+	<head>
+		<title>Job Application</title>
+		<link rel="stylesheet" href="css/jobapp.css">
+
+		<meta name="description" content="Creating a job application with the skills learned">
+		<meta name="keywords" content="html, css, web development, neiu, job application">
+	</head>
+	<body>
+	<header>
+			<section class="left">
+				<div class="big">
+					NEIU
+				</div>
+				<div class="small">
+					CS300
+				</div>
+			</section>
+			<section class="right">
+				<div class="big">
+					HTML &amp; CSS
+				</div>
+				<div class="small">
+					Homework - Job Application
+				</div>
+			</section>
+		</header>
+		<div id="container">
+			<article>
+				<h1>Job Application</h1>
+				<h3>IT Help Desk</h3>
+				<section>
+				<p><b>Description:</b> This is the perfect entry point for someone who loves technology,
+				is a great communicator, and has a natural desire to help others. 
+				As a Help Desk Technician, you'll have the chance to build the company technology platform, 
+				gain professional IT experience, and hone your technical skills
+
+				With a management team dedicated to your success, we work with you to create a roadmap for your IT career
+				that helps you constantly learn new skills and develop professionally.
+				We love to promote from within and many of our Help Desk Technicians.</P>
+				<form action="index.html" method="POST">
+				<div class="row">
+					<label for="txtInput">Enter Full Name</label>
+					<input type="text" id="txtInput" class="txt" name="txtInput" placeholder="Last Name" />
+					<input type="text" id="txtInput" class="txt" name="txtInput" placeholder="M." />
+					<input type="text" id="txtInput" class="txt" name="txtInput" placeholder="Firt Name" />
+				</div>	
+				<div class="row">
+					<label for="emailInput">Enter Email</label>
+					<input type="email" id="emailInput" class="txt" name="Email" />
+				<div>
+				<div class="row">
+					<label>Avaliablity</label>
+					<div>
+						<label for="chk1" class="chkLabel">Morning</label>
+						<input type="checkbox" name="chk1" id="chk1"/>
+						<label for="chk2" class="chkLabel">Afternoon</label>
+						<input type="checkbox" name="chk2" id="chk2"/>
+						<label for="chk3" class="chkLabel">Nights</label>
+						<input type="checkbox" name="chk3" id="chk3"/>
+					</div>
+				</div>
+				<div class="row">
+					<label>Gender</label>
+					<div>
+						<label for="radio1" class="chkLabel">Male</label>
+						<input type="radio" name="radio" id="radio1"/>
+						<label for="radio2" class="chkLabel">Female</label>
+						<input type="radio" name="radio" id="radio2"/>
+						<label for="radio3" class="chkLabel">Other</label>
+						<input type="radio" name="radio" id="radio3"/>
+					</div>
+				</div>
+				<div class="row">
+					<label>Which Day to Start</label>
+						<select id="dropdown" name="dropdown" class="txt">
+							<optgroup label="Day">
+								<option disabled>--Select One--</option>
+								<option value="1">Monday</option>
+								<option value="2">Tuesday</option>
+								<option value="3">Wedsnday</option>
+								<option value="4">Thursday</option>
+								<option value="5">Friday</option>
+								<option value="6">Saturday</option>									
+								<option value="7">Sunday</option>
+								</optgroup>
+						</select>
+				</div>
+				<div class="row">
+					<label for="fileInput">Resume</label>
+					<input type="file" id="fileInput" name=fileInput" class="txt" />
+				</div>
+				<div class="row">
+					<label for="txtArea2">How you found us?</label>
+					<textarea id="txtArea2" name="txtArea2"></textarea>
+				</div>
+				</form>
+				</section>
+				<div>
+					<input type="submit" class="btn" value="Submit" />
+				</div>
+			</article>
+		<footer>
+			<section class="left ftrLeft">
+				Northeastern Illinois University - CS300
+			</section>
+			<section class="right ftrRight">
+				&copy; Copyright 2018
+			</section>
+		</footer>	
+	</body>
+</html>

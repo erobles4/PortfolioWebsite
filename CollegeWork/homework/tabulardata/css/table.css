@@ -1,0 +1,17 @@
+body{
+	font-family: calibri, arial, sans-serif;
+}
+table{
+	width: 80%;
+	font-weight: 100%;
+	text-align: center;
+	border: 5px solid black;
+	border-collapse: collapse;
+	background-color:#F5DEB3;	
+}
+td, th{
+	border: 2px solid black;
+}
+#white{
+	background-color:white;
+}

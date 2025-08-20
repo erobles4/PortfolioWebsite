@@ -1,0 +1,86 @@
+/*
+ * Rules sets may be created using 3 types of selectors:
+ *	1. type = element type (body, div, span, h1, etc.)
+ *	2. id = id attribute --> starts with # (#divOne)
+ *	3. class = class attribute --> starts with . (.allDivs)
+ */
+
+/*
+ * Rule Sets - May contain 1+ rules
+ * 
+ * selector {
+ * 	  ruleName: value;
+ * }
+ */
+
+/* Type Selector */
+	/* Change font type: font-family */
+	/* default = serif */
+h1 {
+	font-family: serif;
+	text-align: center;
+}
+
+h2 {
+	font-family: cursive;
+	text-align: right; /* default is left */
+}
+
+h3 {
+	font-family: fantasy;
+	text-decoration: underline; /* default is none */
+}
+
+h4 {
+	font-family: monospace;
+	text-decoration: overline;
+}
+
+h5 {
+	font-family: arial;
+	text-decoration: line-through;
+}
+
+h6 {
+	font-family: cambria;
+	text-transform: lowercase;
+	text-decoration: underline overline line-through;
+}
+
+p {
+	font-family: fontOne, calibri;
+	text-transform: uppercase; /* default is none */
+	font-weight: 700; /* 100, 200, ..., 900 */
+}
+
+b {
+	font-variant: small-caps;
+}
+
+kbd {
+	font-family: Snowtop;
+}
+	/* Aligning Text: text-align */
+	/* default = left */
+
+/* Create a custom font */
+@font-face {
+	font-family: Snowtop;
+	src: url('../fonts/SnowtopCaps.otf'); /* quotes are optional */
+}
+
+/* ID Selector */
+
+	/* Change weight of font: font-weight */
+	/* 100 - 900, on the hundred */
+
+	/* Transform the text */
+
+	/* Text Decoration (i.e. lines) */
+	/* underline overline line-through none*/
+
+	/* Font Variant */
+
+/* Class Selector */
+
+	

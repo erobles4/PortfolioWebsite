@@ -1,0 +1,140 @@
+/*Edwin Robles*/
+body{
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: calibri, arial, sans-serif;
+	background-color: grey;
+}
+header .left{
+	font-size: 36px;
+}
+
+header .right{
+	font-family: Courier,Cursive, Helvetica, Arial, serif;
+	font-size: 18px;
+}
+header .top{
+	padding-left: 20px 2%;
+	padding-right: 20px 2%;
+	float: left;
+	width: 100%;
+	height: 20px;
+	background: black;
+	color: white;
+}
+header .bottom{
+	float: left;
+	width: 100%;
+	height: 50px;
+	background: black;
+	color: white;
+}
+.left{
+	float: left;
+	width: 40%;
+}
+
+.right{
+	float: right;
+	width: 40%;
+	text-align: right;
+}
+header .bottom .left{
+	font-family: Courier,Cursive, Helvetica, Arial, serif;
+	font-size: 25px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-top: 1%;
+	margin-left: 3%;
+}
+header .bottom a{
+	font-family: Courier,Cursive, Helvetica, Arial, serif;
+	color:white;
+	text-decoration:  none;
+	font-style: underline;
+	padding: 5%;
+	border-left-style: solid white;
+}
+header .bottom a:hover{
+	background-color: green;
+}
+.mySlides{
+	display:1;
+	width: 100%;
+	height: 40%;
+	display:none;
+}
+.arrow{
+	height:15px;
+	width:15px;
+}
+#about{
+	float: left;
+}
+h1{
+	font-family: Courier,Cursive, Helvetica, Arial, serif;
+	text-align: center;
+}
+h2{
+	font-family: Courier,Cursive, Helvetica, Arial, serif;
+	text-align: center;
+}
+.me{
+	height: 25%;
+	width: 20%;
+	margin-left: 40%;
+	border-radius: 25px;
+}
+#container{
+	font-family: Cursive, Helvetica, Arial, serif;
+	text-align: center;	
+}
+
+.workSamples{
+		margin-left: 30%;
+}
+
+.links{
+	font-family: Courier,Cursive, Helvetica, Arial, serif;
+	color:white;
+	text-decoration:  none;
+	font-style: underline;
+	padding: 5%;
+}
+
+
+.cbtn {
+  background-color: black; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#Contact{
+	font-family: Courier,Cursive, Helvetica, Arial, serif;
+	float:left;
+	background-color:#4CAF50;
+	color:white;
+}
+.name{
+	text-align: center;
+	font-size: 20px;
+}
+footer a{
+	color:white;
+	text-decoration:  none;
+}
+footer{
+	font-family: Courier,Cursive, Helvetica, Arial, serif;
+	float: left;
+	width: 100%;
+	height:25%;
+	border-top: 5px double black;
+	color:white;
+	background-color:black;
+}
